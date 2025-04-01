@@ -1,0 +1,115 @@
+body {
+    background-color: rgb(236, 236, 236);
+    background-image: url(idev3-desafio\ LIMA.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+     font-family: 'Poppins', sans-serif;
+    
+    
+}
+
+.h1 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    
+
+
+
+}
+
+.pai {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+
+
+    color: white;
+}
+
+.h2 {
+    font-size: 20px;
+    text-align: right;
+    color: white;
+
+
+}
+footer {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    font-size: 15px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-top: 0; /* Removido para evitar conflitos */
+}
+
+
+p {
+    color: white;
+    font-size: 15px;
+    margin-right: 150px;
+    margin-left: 80px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.sla {
+    color: white;
+    font-size: 30px;
+    margin-right: 150px;
+    margin-left: 80px;
+
+
+}
+
+.sla2 {
+    font-size: 25px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+h3 {
+    color: white;
+    font-size: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    font-family: 'VT323', monospace;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaçamento entre os itens */
+    margin-right: 150px;
+    margin-left: 50px;
+    padding: 20px;
+}
+
+.flex-item {
+    
+    color: white;
+    padding: 0; /* Remove o padding para manter o quadrado perfeito */
+    border-radius: 8px;
+    font-size: 18px;
+    text-align: center;
+    width: 100px; /* Define a largura */
+    height: 100px; /* Define a altura igual à largura */
+    display: flex; /* Centraliza o conteúdo */
+    align-items: center; /* Alinha verticalmente */
+    justify-content: center; /* Alinha horizontalmente */
+}
+
+.flex-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px; /* Opcional: arredonda os cantos */
+
+}
+
+a img {
+    transition: 0.3s;
+}
+a img:hover {
+    opacity: 0.7;
+}
